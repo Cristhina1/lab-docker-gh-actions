@@ -39,3 +39,6 @@ jobs:
       - name: Verificar imagen publicada
         run: |
           echo "Imagen publicada: ghcr.io/$LOWER_USER/lab-docker-web:latest"
+      - name: Verificar imágenes locales
+        run: docker images
+
